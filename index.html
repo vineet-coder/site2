@@ -6,69 +6,13 @@
     <title>site2</title>
 </head>
 <body>
-    hi i am vineet!!
+  <h1>my thoughts</h1>>  
    
-    i am new to learn coding but i think i will learn how to do al these things!!
+  hi i am vineet!!
+   
+    i am new to learn coding but i think i will learn how to do all these things!!
     
     ok so let's see what happend!! 
 
-    i have one game to you
-
-    var readLineSync =require("readline-sync");
-var score = 0;
-var userAnswer = readLineSync.question("what is your name?? ");
-
-console.log("welcome " + userAnswer + "!!");
-console.log("-----------------------------------");
-
-console.log("so lets play 'kon bnega node js janne vala??'");
-console.log("-----------------------------------");
-console.log("but there is no life line and no options!!");
-console.log("-----------------------------------");
-console.log("the game is very simple you have to answer in only tow words 'yes' or 'no' !!");
-console.log("-----------------------------------");
-
-
-function play(question , answer)
-{
-  var userA = readLineSync.question(question);
-  if (userA === answer ) {
-    console.log("-----------------------------------");
-    console.log("you are right");
-    score = score + 1;
-   
-  } else {
-    console.log("-----------------------------------");
-    console.log("sorry you need to learn!!")
-  score = score - 1;
- 
-  }
-  console.log("-----------------------------------");
-  console.log("your score is : " + score);
-console.log("-----------------------------------");
-}
-
-
-var questions = [{
-  question: "Q1 - the object in the node js consist key value pair??" , 
-  answer: "yes"  } ,
-{ question: "Q2 - function has two phase 'input and output'?" , 
-  answer: "no" } ,
-{
-  question: "Q3 - In arrayName.length the .length is a property of array??" ,
-  answer: "yes" }];
-
-
-for (var i=0; i<questions.length; i++) 
-{
-var list = questions[i];
-
-play(list.question , list.answer)
-
-}
-console.log("                                    ");
-console.log("                                    ");
-console.log("                                    ");
- console.log("your final score is: " + score);
 </body>
 </html>
